@@ -1,0 +1,4 @@
+# All availabe queries on this graphql server
+type Query {
+    bankAccount(id: ID): BankAccount
+}
